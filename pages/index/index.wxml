@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<wxs module="dateFormat" src="../../filters/date.wxs"></wxs>
+<view class="container">
+	 <!-- <scroll-view scroll-y bindscrolltolower="loadMore" style="height: 100vh;" bindscrolltoupper="pulldown"> -->
+    
+    	<view class="list">
+			
+      <block wx:if="{{list.length}}">
+			<view class="list-item" wx:for="{{list}}" wx:key="{{item.id}}">
+
+        <view  class="content">
+         <view class="time">{{dateFormat(item.publishAt)}}</view>
+         {{item.content}}
+        </view>
+        <view class="share">
+            <button open-type="share" plain="true" size="mini">
+              <image  mode="aspectFit"   src="../../assets/imgs/share.png"></image>
+              <text>分享</text>
+            </button>
+        </view>
+          
+			</view>
+      <view class="more">
+        <text>{{moretext}}</text>
+      </view>
+      </block>			
+      <block wx:else>
+          <image class="nodata" mode="aspectFit" src="../../assets/imgs/nodata.png"></image>
+          <text class='nodatatext'>
+            {{nodata}}
+          </text>
+			 </block>		
+	</view>
+	
+
+
+  <!-- </scroll-view> -->
+
+	
+</view>

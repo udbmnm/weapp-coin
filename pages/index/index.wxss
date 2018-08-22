@@ -1,0 +1,81 @@
+.list {
+  width: 100%;
+  display: block;
+  padding:20rpx  20rpx 0;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.list-item {
+	border-bottom: 1px solid #ececec;
+	color:  #777;
+	position: relative;
+	font-size: 14px;
+  padding: 20rpx 10rpx;
+  margin-bottom: 20rpx;
+  
+}
+.time {
+	color: #ff6a00;
+}
+.time {
+	display: inline;
+}
+
+.text ,.content {
+  display: inline;
+  margin-right: 100px;
+}
+.content {
+  width: 100%;
+   display: -webkit-box;
+  box-sizing: border-box;
+  word-break: break-all;
+    -webkit-box-orient: vertical;
+    /* -webkit-line-clamp:3; */
+    overflow: hidden;
+    text-overflow:ellipsis;
+
+}
+
+.nodata {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.nodatatext {
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+}
+
+.more {
+  color: #999;
+  font-size: 12px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.share {
+  text-align: right;
+  padding: 0 10rpx;
+  line-height: 60rpx;
+  height: 50rpx;
+}
+.share button {
+  border: none;
+}
+.share image {
+  width:30rpx;
+  height:30rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.share text {
+   vertical-align: middle;
+   color: #999;
+   font-size: 12px;
+}

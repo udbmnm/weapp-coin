@@ -1,0 +1,19 @@
+<!--pages/about/about.wxml-->
+<view class="container">
+
+  <view class="about">
+  
+      <text>
+        欢迎使用本小程序，本应用为小程序练手开发，如果有什么需求可以给我提交issue
+      </text>   
+      <text>
+       代码放在Github：
+      </text>
+      <text>
+         https://github.com/udbmnm/weapp-coin      
+      </text>
+
+
+  </view>
+
+</view>

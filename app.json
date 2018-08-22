@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundColor" : "#eee",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#4285f4",
+    "navigationBarTitleText": "币圈一天",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#4285f4",
+    "borderStyle": "#ccc",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/imgs/home.png",
+        "selectedIconPath": "assets/imgs/home-active.png",
+        "text": "资讯"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "assets/imgs/about.png",
+        "selectedIconPath": "assets/imgs/about-active.png",
+        "text": "关于"
+      }
+    ]
+  }
+}
